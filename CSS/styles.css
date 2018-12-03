@@ -3,7 +3,7 @@ img.head-border {
   width: 60%;
 }
 
-/* Had to add this extra code in as I can't precompile Sass for Bootstrap.
+/* Not precompiling Sass for Bootstrap,so extra CSS code is below.
    Using it to resize text at Bootstrap breakpoints.
    Extra small devices (portrait phones, less than 576px) */
 
@@ -14,8 +14,21 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background: #03a9f4;
 }
-
+header{
+  border-bottom: 1px solid black;
+}
+main {
+  height:80vh;
+  /*background: linear-gradient(to right, #03a9f4,#ad6ed1) url("../images/salt-shaker-transparent.png") repeat;
+  */
+  background: url("../images/salt-shaker-transparent.png");
+  opacity:0.5;
+}
+.inner-main {
+  opacity: 1;
+}
 html {
   font-size: 0.8rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", Roboto, Arial;
