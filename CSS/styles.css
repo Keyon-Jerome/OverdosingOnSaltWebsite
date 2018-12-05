@@ -14,17 +14,25 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: #03a9f4;
+  /*background: #03a9f4;
+  */
+  /*background: rgb(255,255,255);
+  */font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
   border-bottom: 1px solid black;
+
+
+}
+ #navbar {
+  background: #03a9f4 !important;
 }
 main {
   height:80vh;
   /*background: linear-gradient(to right, #03a9f4,#ad6ed1) url("../images/salt-shaker-transparent.png") repeat;
   */
-  background: url("../images/salt-shaker-transparent.png");
-  opacity:0.5;
+  /*background: url("../images/salt-shaker-transparent.png");
+  opacity:0.5;*/
 }
 .inner-main {
   opacity: 1;
@@ -47,6 +55,7 @@ html {
     width: 90%;
   }
 }
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -82,7 +91,7 @@ html {
 }
 
 .featurette-divider {
-  margin: 5rem 0;
+  margin: 2rem 0;
   /* Space out the Bootstrap <hr> more */
 }
 
@@ -91,6 +100,7 @@ html {
   font-weight: 50;
   line-height: 1;
   letter-spacing: -.05rem;
+  font-size: 2em;
 }
 
 @media (min-width: 40em) {
@@ -102,9 +112,11 @@ html {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    /*margin-top: 7rem;
+    */
   }
 }
+
 
 /*Animista. It's like Animate.css, but there are way more options.*/
 /* ----------------------------------------------
