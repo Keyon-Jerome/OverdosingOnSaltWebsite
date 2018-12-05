@@ -126,7 +126,11 @@ html {
     /*margin-top: 7rem;
     */
   }
+  .featurette-heading-big {
+    font-size:35px;
+  }
 }
+
 
 
 /*Animista. It's like Animate.css, but there are way more options.*/
