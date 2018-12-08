@@ -18,8 +18,11 @@ html, body {
   scroll-behavior: smooth;
 }
 
+/*page header font size changes*/
 h1.lineHeader{font-size:8vw; }
 h2.lineHeader {font-size:4vw;}
+
+
 /*food images in row at top of page */
 .image-reel {
   border:solid  white 3px;
