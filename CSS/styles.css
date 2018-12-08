@@ -1,14 +1,10 @@
-img.head-border {
-  border: 1vw solid white;
-  width: 60%;
-}
 
 /* Not precompiling Sass for Bootstrap,so extra CSS code is below.
    Using it to resize text at Bootstrap breakpoints.
    Extra small devices (portrait phones, less than 576px) */
 
-html,
-body {
+html, body {
+  /* CSS "reset" to consolidate viewport sizing*/
   height: 100%;
   width: 100%;
   margin: 0px;
@@ -16,21 +12,23 @@ body {
   overflow-x: hidden;
   /*background: #03a9f4;
   */
-  /*background: rgb(255,255,255);
-  */font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*background: rgb(255,255,255); */
+  /* font-families */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   scroll-behavior: smooth;
 }
-header{
-  /*border-bottom: 1px solid black;
-*/}
+
 h1.lineHeader{font-size:8vw; }
 h2.lineHeader {font-size:4vw;}
+/*food images in row at top of page */
 .image-reel {
   border:solid  white 3px;
 }
+/* override the colour of the navbar*/
 .main-navbar {
   background: #03a9f4 !important;
 }
+/*colour of navbar after 50px has been scrolled; not functional (see main.js) */
 .scrolled-navbar {
   background: rgb(56, 54, 54) !important;
 
@@ -53,7 +51,7 @@ html {
   /* for navbar*/
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   html {
     font-size: 0.9rem;
@@ -67,7 +65,7 @@ html {
 }
 
 
-/* Medium devices (tablets, 768px and up) */
+/* medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   html {
     font-size: 1.0rem;
@@ -75,7 +73,7 @@ html {
 
 }
 
-/* Large devices (desktops, 992px and up) */
+/* large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   html {
     font-size: 1.0rem;
@@ -86,27 +84,12 @@ html {
 /* Featurettes. Common Bootstrap snippet that looks amazing.
 ------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing h2 {
-  font-weight: 400;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
 .featurette-divider {
   margin: 2rem 0;
-  /* Space out the Bootstrap <hr> more */
+  /* space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
+/* thin out the headings */
 .featurette-heading {
   font-weight: 50;
   line-height: 1;
